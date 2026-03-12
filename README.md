@@ -11,38 +11,38 @@ Esta es la forma recomendada. Solo necesitás tener instalado **Docker Desktop**
    git clone [https://github.com/MatiasEzeMamani/Proyecto-Bingo.git](https://github.com/MatiasEzeMamani/Proyecto-Bingo.git)
    cd Proyecto-Bingo
 
-Levantar el sistema completo:
+### 🚀 Levantar el sistema completo
 Desde la raíz del proyecto, ejecutá:
+
+```bash
 docker compose up -d --build
 
-Acceder a las aplicaciones:
+### 🔗 Acceder a las aplicaciones
 
-Frontend (React): http://localhost:5173
+* **Frontend (React):** [http://localhost:5173](http://localhost:5173)
+* **Backend (API):** [http://localhost:8080](http://localhost:8080)
+* **Base de Datos (MySQL):** Puerto `3306`
 
-Backend (API): http://localhost:8080
+### 🛠️ Tecnologías y Arquitectura
 
-Base de Datos (MySQL): Puerto 3306
+* **Backend:** Java 21 & Spring Boot (corriendo en el contenedor `bingo_backend`).
+* **Frontend:** React + Vite (corriendo en el contenedor `bingo_frontend`).
+* **Database:** MySQL 8.0 (corriendo en el contenedor `bingo_db`).
 
-🛠️ Tecnologías y Arquitectura
-Backend: Java 21 & Spring Boot (corriendo en contenedor bingo_backend).
+### 🛠️ Desarrollo Manual (Opcional)
 
-Frontend: React + Vite (corriendo en contenedor bingo_frontend).
-
-Database: MySQL 8.0 (corriendo en contenedor bingo_db).
-
-🛠️ Desarrollo Manual (Opcional)
 Si preferís trabajar sin Docker para debuggear el código directamente:
 
-Backend
-Requiere JDK 21 y Maven.
+#### **Backend**
+* Requiere **JDK 21** y **Maven**.
 
-Configurar el application.properties para apuntar a localhost:3306.
+* Configurar el `application.properties` para apuntar a `localhost:3306`.
 
-Frontend
-Requiere Node.js 22+.
+#### **Frontend**
+* Requiere **Node.js 22+**.
+* Ejecutar `npm install` y luego `npm run dev`.
 
-Ejecutar npm install y luego npm run dev.
+---
 
-Contacto
-Desarrollado por Matias Ezequiel Mamaní
-LinkedIn: https://www.linkedin.com/in/matias-ezequiel-mamaní-66640a1b7
+### 📩 Contacto
+**Desarrollado por Matias Ezequiel Mamaní** [LinkedIn Profile](https://www.linkedin.com/in/matias-ezequiel-mamaní-66640a1b7)
