@@ -9,7 +9,7 @@ Desde la raíz del proyecto, ejecutá:
 
 ```bash
 docker compose up -d --build
-🔗 Acceder a las aplicaciones
+### 🔗 Acceder a las aplicaciones
 Frontend (React): http://localhost:5173
 
 Backend (API): http://localhost:8080
