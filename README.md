@@ -11,7 +11,7 @@ Esta es la forma recomendada. Solo necesitás tener instalado **Docker Desktop**
 ```bash
 git clone [https://github.com/MatiasEzeMamani/Proyecto-Bingo.git](https://github.com/MatiasEzeMamani/Proyecto-Bingo.git)
 cd Proyecto-Bingo
-
+```
    
 ### 🚀 Levantar el sistema completo
 Desde la raíz del proyecto, ejecutá:
