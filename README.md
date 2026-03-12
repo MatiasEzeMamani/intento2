@@ -1,12 +1,15 @@
-🎰 Proyecto Bingo Full-Stack
-Este es un sistema de Bingo profesional desarrollado con Java (Spring Boot), React y MySQL. El proyecto está completamente dockerizado, lo que permite levantarlo en cualquier máquina sin necesidad de instalar Java, Node o bases de datos manualmente.
+# 🎰 Proyecto Bingo Full-Stack
 
-🚀 Instalación Rápida (Con Docker)
-Esta es la forma recomendada. Solo necesitás tener instalado Docker Desktop.
+Este es un sistema de Bingo profesional desarrollado con **Java (Spring Boot)**, **React** y **MySQL**. El proyecto está completamente **dockerizado**, lo que permite levantarlo en cualquier máquina sin necesidad de instalar Java, Node o bases de datos manualmente.
 
-Clonar el repositorio:
-git clone https://github.com/MatiasEzeMamani/Proyecto-Bingo.git
-cd Proyecto-Bingo
+## 🚀 Instalación Rápida (Con Docker)
+
+Esta es la forma recomendada. Solo necesitás tener instalado **Docker Desktop**.
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/MatiasEzeMamani/Proyecto-Bingo.git](https://github.com/MatiasEzeMamani/Proyecto-Bingo.git)
+   cd Proyecto-Bingo
 
 Levantar el sistema completo:
 Desde la raíz del proyecto, ejecutá:
