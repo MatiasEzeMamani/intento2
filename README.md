@@ -17,19 +17,19 @@ Desde la raíz del proyecto, ejecutá:
 ```bash
 docker compose up -d --build
 
-### 🔗 Acceder a las aplicaciones
+#### 🔗 Acceder a las aplicaciones
 
 * **Frontend (React):** [http://localhost:5173](http://localhost:5173)
 * **Backend (API):** [http://localhost:8080](http://localhost:8080)
 * **Base de Datos (MySQL):** Puerto `3306`
 
-### 🛠️ Tecnologías y Arquitectura
+##### 🛠️ Tecnologías y Arquitectura
 
 * **Backend:** Java 21 & Spring Boot (corriendo en el contenedor `bingo_backend`).
 * **Frontend:** React + Vite (corriendo en el contenedor `bingo_frontend`).
 * **Database:** MySQL 8.0 (corriendo en el contenedor `bingo_db`).
 
-### 🛠️ Desarrollo Manual (Opcional)
+###### 🛠️ Desarrollo Manual (Opcional)
 
 Si preferís trabajar sin Docker para debuggear el código directamente:
 
