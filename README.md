@@ -32,6 +32,30 @@ docker compose up -d --build
 * **Frontend:** React + Vite (corriendo en el contenedor `bingo_frontend`).
 * **Database:** MySQL 8.0 (corriendo en el contenedor `bingo_db`).
 
+## 🛠️ Stack Tecnológico Detallado
+
+### **Backend (Core & Security)**
+* **Lenguaje:** Java 21 (LTS)
+* **Framework:** Spring Boot 3.x
+* **Seguridad Avanzada:** - **Spring Security** con arquitectura Stateless.
+  - **Doble Token:** Implementación de **Access Tokens** y **Refresh Tokens** con **JWT**.
+  - Configuración de políticas **CORS** para comunicación segura con el Frontend.
+* **Productividad:** **Lombok** (reducción de código boilerplate).
+* **Validaciones:** Bean Validation (**Hibernate Validator**) para integridad de datos en DTOs.
+* **Mapeo:** **MapStruct** para una conversión eficiente entre Entidades y DTOs.
+* **Persistencia:** Spring Data JPA + Hibernate.
+
+### **Frontend & Multimedia**
+* **Framework:** React 18+ (Vite)
+* **Lenguaje:** **TypeScript** (Desarrollo robusto con tipado estricto).
+* **Gestión de Medios:** Integración con **Cloudinary API** para la gestión y almacenamiento de imágenes.
+* **Comunicación:** **Axios** para consumo de servicios REST.
+
+### **Infraestructura y Herramientas**
+* **Base de Datos:** **MySQL 8.0**.
+* **DevOps:** **Docker & Docker Compose** (Sistema totalmente dockerizado).
+* **API Testing:** **Postman** para validación de endpoints y flujos de autenticación.
+
 ### 🛠️ Desarrollo Manual (Opcional)
 
 
