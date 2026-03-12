@@ -38,7 +38,7 @@ docker compose up -d --build
 
 ### **Backend (Core & Security)**
 * **Lenguaje:** Java 21 (LTS)
-* **Framework:** Spring Boot 3.x
+* **Framework:** Spring Boot 4.0.3
 * **Seguridad Avanzada:** - **Spring Security** con arquitectura Stateless.
   - **Doble Token:** Implementación de **Access Tokens** y **Refresh Tokens** con **JWT**.
   - Configuración de políticas **CORS** para comunicación segura con el Frontend.
