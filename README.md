@@ -42,14 +42,14 @@ docker compose up -d --build
 * **Seguridad Avanzada:** - **Spring Security** con arquitectura Stateless.
   - **Doble Token:** Implementación de **Access Tokens** y **Refresh Tokens** con **JWT**.
   - Configuración de políticas **CORS** para comunicación segura con el Frontend.
-* **Productividad:** **Lombok** (reducción de código boilerplate).
+* **Productividad:** **Lombok**.
 * **Validaciones:** Bean Validation (**Hibernate Validator**) para integridad de datos en DTOs.
 * **Mapeo:** **MapStruct** para una conversión eficiente entre Entidades y DTOs.
 * **Persistencia:** Spring Data JPA + Hibernate.
 
 ### **Frontend & Multimedia**
 * **Framework:** React 18+ (Vite)
-* **Lenguaje:** **TypeScript** (Desarrollo robusto con tipado estricto).
+* **Lenguaje:** **TypeScript**.
 * **Gestión de Medios:** Integración con **Cloudinary API** para la gestión y almacenamiento de imágenes.
 * **Comunicación:** **Axios** para consumo de servicios REST.
 
