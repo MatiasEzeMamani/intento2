@@ -9,7 +9,7 @@ Esta es la forma recomendada. Solo necesitás tener instalado **Docker Desktop**
 1. **Clonar el repositorio:**
 
 ```bash
-git clone [https://github.com/MatiasEzeMamani/Proyecto-Bingo.git](https://github.com/MatiasEzeMamani/Proyecto-Bingo.git)
+git clone https://github.com/MatiasEzeMamani/Proyecto-Bingo.git
 cd Proyecto-Bingo
 ```
    
